@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+:root {
+  --boss: rgb(160, 160, 160);
+  --colors: rgb(210, 198, 198);
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  margin-bottom: 40px;
+}
+.header__title {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: 50px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.main__card {
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 20px 10px 0px 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.main__card:hover {
+  width: 320px;
+  height: 570px;
+}
+.main__card-img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.main__card-zanr {
+  color: #c0c0c0;
+  font-size: 5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__card-cardtitle {
+  font-size: 25px;
+  font-weight: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.main__card-discription {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__card-price {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 40px;
+  font-size: larger;
+}
+.main__card-cardbtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 90px;
+  width: 295px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: black;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.main__card-new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgb(199, 41, 41);
+  color: white;
+  width: 110px;
+  border-radius: 5px;
+  text-align: center;
+}
+.main__card-recom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgb(43, 138, 31);
+  color: white;
+  width: 180px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: rgb(241, 241, 241);
+}
+.footer__text {
+  color: rgb(128, 128, 128);
+}
+
+.section {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section__btn {
+  background-color: black;
+  width: 800px;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.section__btn:hover {
+  width: 820px;
+}/*# sourceMappingURL=style.css.map */

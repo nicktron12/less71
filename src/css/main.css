@@ -1,0 +1,89 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.main__card {
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 20px 10px 0px 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.main__card:hover {
+  width: 320px;
+  height: 570px;
+}
+.main__card-img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.main__card-zanr {
+  color: #c0c0c0;
+  font-size: 5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__card-cardtitle {
+  font-size: 25px;
+  font-weight: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.main__card-discription {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__card-price {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 40px;
+  font-size: larger;
+}
+.main__card-cardbtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 90px;
+  width: 295px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: black;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.main__card-new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgb(199, 41, 41);
+  color: white;
+  width: 110px;
+  border-radius: 5px;
+  text-align: center;
+}
+.main__card-recom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: rgb(43, 138, 31);
+  color: white;
+  width: 180px;
+  border-radius: 5px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

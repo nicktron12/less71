@@ -1,0 +1,18 @@
+.section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &__btn {
+        background-color: black;
+        width: 800px;
+        height: 40px;
+        color: white;
+        border-radius: 10px;
+        font-size: 25px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            width: 820px;
+        }
+    }
+}

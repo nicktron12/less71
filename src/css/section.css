@@ -1,0 +1,18 @@
+.section {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section__btn {
+  background-color: black;
+  width: 800px;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.section__btn:hover {
+  width: 820px;
+}/*# sourceMappingURL=section.css.map */
